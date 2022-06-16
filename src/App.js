@@ -1,8 +1,14 @@
+import {useState} from "react";
 
-function App() {
-  return (
-    <div>App</div>
-  );
+const App = () =>{
+  const [isHome, setIsHome] = useState(true);
 }
+
+return(
+  <div>
+    <button>Home</button>
+    <button>Menu</button>
+  </div>
+)
 
 export default App;
